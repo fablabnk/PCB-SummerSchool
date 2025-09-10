@@ -18,8 +18,8 @@
 ## Starting at the End: What is a PCB, why make one and how are they made?
 - Why? From breadboard -> stable prototype -> product
 - What? [Sparkfun PCB Basics](https://learn.sparkfun.com/tutorials/pcb-basics/all)
--- Standard material is FR4 (fibreglass), but there are other forms of PCB
--- THT vs SMT, PCB vs PCBA (assembled), 2/4/6/8 layers and beyond
+	- Standard material is FR4 (fibreglass), but there are other forms of PCB
+	- THT vs SMT, PCB vs PCBA (assembled), 2/4/6/8 layers and beyond
 - For fabrication we need Gerber and drill files representing each of the layers in our design
 
 ## Fabrication Options
