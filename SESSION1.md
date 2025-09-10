@@ -18,18 +18,22 @@
 ## Starting at the End: What is a PCB, why make one and how are they made?
 - Why? From breadboard -> stable prototype -> product
 - What? [Sparkfun PCB Basics](https://learn.sparkfun.com/tutorials/pcb-basics/all)
-	- Standard material is FR4 (fibreglass), but there are other forms of PCB
-	- THT vs SMT, PCB vs PCBA (assembled), 2/4/6/8 layers and beyond
+	- Standard material is FR4 (fibreglass), but there are other forms of PCB (e.g. flex)
+	- Through hole (THT) vs surface mount (SMT)
+	- PCB (just the board) vs PCBA (auto-assembled with components)
+	- 2/4/6/8 layers and beyond
 - For fabrication we need Gerber and drill files representing each of the layers in our design
 
 ## Fabrication Options
 
 ### Fab-it-yourself (FIY)
+Not covered by this course!
 - [Chemical etching](https://www.youtube.com/watch?v=tWnfnt2rNO0)
 - [CNC milling](https://www.youtube.com/watch?v=TBB32mKpizs)
-- [Laser Cutting with Fibre Laser]
+- [Fibre laser cutting](https://hackaday.com/2025/01/05/perfecting-20-minute-pcbs-with-laser/)
 
 ### Fab Houses
+What we're designing for :)
 - [JLCPCB](https://jlcpcb.com/): Zhuhai, Guangdong, China. [Factory tour!](https://www.youtube.com/watch?v=jTBOSob5MLg)
 - [PCBWAY](https://www.pcbway.com/): Shenzhen, Guangdong, China
 - [Aisler](https://aisler.net/en): Aachen, North Rhine-Westphalia, Germany
