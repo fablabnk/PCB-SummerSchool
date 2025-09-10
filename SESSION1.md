@@ -68,8 +68,8 @@ _Choose this project if you want to add component footprints yourself and design
 ## "Workflow" Tour of KiCad 9 with JLCPCB
 
 - You can follow along using WeevilEye project as an example
-- A good starter tutorial is [here](https://solder.hackclub.com/tutorial) if you're looking at these notes from home
-- Official Reference Docs are [here](https://docs.kicad.org/9.0/en/kicad/kicad.html)
+- A good KiCad starter tutorial is [here](https://solder.hackclub.com/tutorial) if you're looking at these notes from home
+- Official KiCad9 reference docs are [here](https://docs.kicad.org/9.0/en/kicad/kicad.html)
 
 0. Starting from the end: JLCPCB uploader and manufacturing specs
 1. Make schematic, perform ERC check
