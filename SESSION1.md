@@ -1,11 +1,5 @@
 # Session 1: Design Your Own PCB
 
-## About this Event
-
-- A continuation of our FOSS series on open-source tools for fabrication
-- (Last time we learned FreeCAD)
-- Today is a general intro, to see if PCB design is your thing
-- If it is, join the "learning pact" for the next 3 weeks to complete/design/send for your own board
 
 ## Inspiration and Examples
 
@@ -64,7 +58,7 @@ _Choose this project if you want a super-easy start where the PCB is made and yo
 2. Adafruit WeevilEye:
 _Choose this project if you want to add component footprints yourself and design/use your own graphics_
 - Repo with schematic[here](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/WeevilEye)
-- KiCad project (schematic only!) [here](./WeevilEyeMod)
+- KiCad project (schematic only!) [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/WeevilEyeMod)
 - Components: 2 x Red 5mm LEDs, 2 x 220R Resistors, 2 x 47k Resistors, 1 x Light Dependant Resistor (LDR), 1 x 2N3904 Transistor, 1 x CR2032 Battery Holder
 
 ## "Workflow" Tour of KiCad 9 with JLCPCB
@@ -103,6 +97,6 @@ _Choose this project if you want to add component footprints yourself and design
 
 ## KiCad Practice Projects
 - [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad)
-- one half of [Torn Keyboard](https://github.com/fablabnk/torn/tree/master/torn_left) 
-- a simple Eurorack module (e.g. [SynthLab Mixer](https://github.com/fablabnk/HagiwoMixer) or [Mortiz Klein Mixer](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-mixer/))
+- One half of [Torn Keyboard](https://github.com/fablabnk/torn/tree/master/torn_left) 
+- A simple Eurorack module (e.g. [SynthLab Mixer](https://github.com/fablabnk/HagiwoMixer) or [Mortiz Klein Mixer](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-mixer/))
 - or something of your own - bring a (simple) schematic for next week!
