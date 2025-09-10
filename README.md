@@ -1,14 +1,25 @@
-A repo to support our printed circuit board design summerschool course: https://www.eventbrite.com/e/maker-summer-school-printed-circuit-board-design-tickets-1604544318249
+This is a repo to support our [_Maker Summer School: Printed Circuit Board Design_](https://www.eventbrite.com/e/maker-summer-school-printed-circuit-board-design-tickets-1604544318249) series of events 
+
+## About the Event Series
+
+- It's a continuation of our FOSS series on open-source tools for fabrication
+- (Last time we learned FreeCAD together)
+- Today is a general intro, to see if PCB design is your thing
+- If it is, join the "learning pact" for the next 3 weeks to complete/design/send for your own board
+
+## The Basics
 
 Over four evening sessions, FabLab NK Manager Graham will take you on a gentle dive into the typically hidden-world of everyday electronics and help you start to make your own. All courses will be led in English. From LED ‘blinkies’, to synthesisers, mini-games consoles, keyboards and even PCB jewelry, we will take a look at a series of example projects that we’ve produced in the lab over the last year and use those as learning tools and jumping-off points for your own designs.
 
-Modern printed circuit board design is an art form that brings together engineering and artistic perspectives. Using the high-precision manufacturing capabilities of fabrication houses, you can treat a board as your canvas and techniques such as masking, silkscreening, copper pours and drilling as your paint palette, allowing you to produce highly original and cost-effective individual designs.
+Modern printed circuit board design is an art form that brings together engineering and artistic perspectives. Using the high-precision manufacturing capabilities of fabrication houses, you can treat a board as your canvas utilising techniques such as masking, silkscreening, copper pours and drilling as your paint palette, allowing you to produce highly original and cost-effective individual designs.
 
 And of course we’ll learn some electronics too as a side effect :)
 
 All session takes place from 18:30, apart from the last session on 1/10 which starts earlier at 18:00
 
-## 10/09 Session 1 : Printed Design for Beginners
+## 10/09 Session 1: Printed Design for Beginners
+
+Detailed doc [here](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
 
 - All about PCBs
 - Introduction to KiCad
@@ -37,5 +48,3 @@ All session takes place from 18:30, apart from the last session on 1/10 which st
 - Designing to mill it yourself (MIY)
 - Fabrication with JLCPCB: Tips and Tricks
 - Assisted individual project time
-
-
