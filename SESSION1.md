@@ -55,15 +55,15 @@ Two options, each with 10 components or less
 
 1. BlinkyParts Unicorn:
 _Choose this project if you want a super-easy start where the PCB is made and you're remaking it!_
-- Product [here](https://shop.blinkyparts.com/en/detail/2be126ff15944653973e8ab5393be2b1)
-- Repo with KiCad files [here](https://github.com/blinkyparts/unicorn)
-- Components: 4 x 5mm RGB LEDs (THT), 1 x button (SMD), 1 x CR2032 Battery Holder (SMD)
+	- Product [here](https://shop.blinkyparts.com/en/detail/2be126ff15944653973e8ab5393be2b1)
+	- Repo with KiCad files [here](https://github.com/blinkyparts/unicorn)
+	- Components: 4 x 5mm RGB LEDs (THT), 1 x button (SMD), 1 x CR2032 Battery Holder (SMD)
 
 2. Adafruit WeevilEye:
 _Choose this project if you want to add component footprints yourself and design/use your own graphics_
-- Repo with schematic[here](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/WeevilEye)
-- KiCad project (schematic only!) [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/WeevilEyeMod)
-- Components: 2 x Red 5mm LEDs, 2 x 220R Resistors, 2 x 47k Resistors, 1 x Light Dependant Resistor (LDR), 1 x 2N3904 Transistor, 1 x CR2032 Battery Holder
+	- Repo with schematic [here](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/WeevilEye)
+	- KiCad project (schematic only!) [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/WeevilEyeMod)
+	- Components: 2 x Red 5mm LEDs, 2 x 220R Resistors, 2 x 47k Resistors, 1 x Light Dependant Resistor (LDR), 1 x 2N3904 Transistor, 1 x CR2032 Battery Holder
 
 ## "Workflow" Tour of KiCad 9 with JLCPCB
 
