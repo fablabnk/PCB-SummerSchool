@@ -7,22 +7,22 @@
 
 ## Topics for Today
 
-- Introduction Round
+- _Introduction Round_
 - Recap of Last Week's Workflow
 - Silkscreening and Other Artistic Techniques
 - It's "Choose a End-Goal Project" Time :)
 - How to Make a Schematic
-- Session Break
+- _Session Break_
 - Supported Project Work
 
 ## Recap of Workflow
 
-1. Make schematic, perform ERC check
-	- done for us today - more on this next week!
+1. Make a schematic, perform ERC check
+	- More on this today!
 2. Assign footprints to components
 	- Through-hole vs surface mount
 	- Perform physical component check (calipers out!)
-3. Setup Your Board
+3. Setup your board
 	- In PCB Editor go to "File -> Board Setup" and pay attention to:
 		- Board Stackup: "Board Editor Layers" and "Physical Stackup" pages
 		- Design Rules: Constraints (ideally should match [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities))
@@ -55,7 +55,7 @@ Let's explore:
 
 ## Importing Vector Graphics
 
-- Here are some [vector graphic elements](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/TriggGraphicElements.svg) to experiment with from our fablab [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad) project
+- Here are some [vector graphic elements](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/TriggGraphicElements.svg) to experiment with from our fablab [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad) project
 - Vector graphics means .svg or .dxf files
 - [Inkscape](https://inkscape.org/) is probably the best open source tool to open/work with these elements (or Adobe Illustrator if you have it)
 
@@ -63,7 +63,7 @@ Let's explore:
 
 - Pick a graphic element you like from the elements provided.
 - Export it from Inkscape as a separate .svg file
-- For this example I will use an [aeroplane .svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/BoardOutlinePlane.svg)
+- For this example I will use an [aeroplane .svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/BoardOutlinePlane.svg)
 - Import it into PCB Editor using: "File -> Import -> Graphics"
 - Choose which board layer you would like to import it to (in our case "Edge Cuts" for board outline)
 - To size it, you may have to keep reimporting and adjusting "import scale" parameter (no draggable resizing possible, unbelievably!)
@@ -71,7 +71,7 @@ Let's explore:
 ## Importing BitMaps as Footprints
 
 - In Project Window choose "Image Convertor"
-- Open your bitmap image (e.g. [airplane.png](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/airplane.png))
+- Open your bitmap image (e.g. [airplane.png](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/airplane.png))
 - Set black/white threshold and check result in "Black & White Picture" tab
 - Select Output Format: Footprint
 - Click "Export to File..." and save
