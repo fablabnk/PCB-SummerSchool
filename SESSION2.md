@@ -1,13 +1,9 @@
 # Session 2
 
-- Take up examples and power
-	- HagiwoMixer/Trigg in two forms/WeevilEye/Torn/Blinkies
-- Arrange seating better for collaboration
-- Check links in this doc work!
-
 ## Topics for Today
 
 - _Introduction Round_
+- Join the Discord server [here](https://discord.gg/tkvjkEwR) to share tips and info
 - Recap of Last Week's Workflow
 - Silkscreening and Other Artistic Techniques
 - It's "Choose a End-Goal Project" Time :)
