@@ -1,41 +1,50 @@
 # Session 2
 
+- Take up examples and power
+	- HagiwoMixer/Trigg in two forms/WeevilEye/Torn/Blinkies
 - Arrange seating better for collaboration
-- Bring soldered blinkies
 - Check links in this doc work!
 
 ## Topics for Today
 
+- Introduction Round
 - Recap of Last Week's Workflow
 - Silkscreening and Other Artistic Techniques
 - It's "Choose a End-Goal Project" Time :)
 - How to Make a Schematic
+- Session Break
+- Supported Project Work
 
 ## Recap of Workflow
 
 1. Make schematic, perform ERC check
 	- done for us today - more on this next week!
-2. Plan board outline
-	- This happens on the "edge cuts" layer
-3. Assign footprints to components
+2. Assign footprints to components
 	- Through-hole vs surface mount
 	- Perform physical component check (calipers out!)
-4. Layout the PCB
+3. Setup Your Board
+	- In PCB Editor go to "File -> Board Setup" and pay attention to:
+		- Board Stackup: "Board Editor Layers" and "Physical Stackup" pages
+		- Design Rules: Constraints (ideally should match [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities))
+4. Draw/import board outline
+	- On the "edge cuts" layer!
+5. Layout the PCB
 	- Place your components
 	- Perform DRC check
-5. Route traces
+6. Route traces/create planes
 	- Perform DRC check (yes, again!)
-6. Export, Upload and Check
+7. Export, upload and check
 	- Install Fabrication Toolkit plugin
 	- Export Gerber/Drill Files, Upload to JLCPCB, Perform Online DFM check (1st time)
-7. Silkscreening and graphics
+8. Add and position silkscreening and graphics
+	- Position component references for hand soldering
 	- Add cool looking graphics
-	- Final visual check in 3D Viewer
+	- Perform final visual check in 3D Viewer
 	- Export Gerber/Drill Files, Upload to JLCPCB, Perform Online DFM check (2nd time)
 
 ## Silkscreening and Other Artistic Techniques
 
-Remember that the [PCB is our palette](https://github.com/fablabnk/PCB-SummerSchool/tree/main/DesignElements/PCBPalette.png) and there are many ways to use it's features and limitations creatively.
+Remember that the [PCB is our palette](https://github.com/fablabnk/PCB-SummerSchool/tree/main/PCBPalette.png) and there are many ways to use it's features and limitations creatively.
 
 Let's explore:
 - Silkscreening
@@ -44,18 +53,20 @@ Let's explore:
 - Artistic plating
 - Artistic use of holes/cutouts
 
-- Here are some [vector graphic elements](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/TriggGraphicElements.svg) to experiment with from our fablab [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad) project
-
-- [Inkscape](https://inkscape.org/) is the best open source tool to open/work with these elements (or Adobe Illustrator if you have it)
-
 ## Importing Vector Graphics
 
--  (.svg or .dxf only)
-- Pick a graphic element you like
+- Here are some [vector graphic elements](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/TriggGraphicElements.svg) to experiment with from our fablab [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad) project
+- Vector graphics means .svg or .dxf files
+- [Inkscape](https://inkscape.org/) is probably the best open source tool to open/work with these elements (or Adobe Illustrator if you have it)
+
+### The Import Process
+
+- Pick a graphic element you like from the elements provided.
 - Export it from Inkscape as a separate .svg file
-- Import it into PCB Editor using: File -> Import -> Graphics
-- Choose which layer you would like to import it to
-- Adjust import scale (no draggable resizing possible, unbelievably!)
+- For this example I will use an [aeroplane .svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/GraphicElements/BoardOutlinePlane.svg)
+- Import it into PCB Editor using: "File -> Import -> Graphics"
+- Choose which board layer you would like to import it to (in our case "Edge Cuts" for board outline)
+- To size it, you may have to keep reimporting and adjusting "import scale" parameter (no draggable resizing possible, unbelievably!)
 
 ## Importing BitMaps as Footprints
 
@@ -80,18 +91,18 @@ Let's explore:
 
 1. WeevilEye Blinky
 - Graphic schematic [here](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
-- Improvised [](https://github.com/fablabnk/PCB)
+- Start from scratch and work on your own creative board design
 
 2. 555 Aeroplane
 - A slight more advanced 'blinky' project with flashing LEDs using a 555 timer chip
 - Graphic schematic [here](https://github.com/ANG13T/555-plane-pcb/blob/main/assets/schematic.PNG) and original project repo [here](https://github.com/ANG13T/555-plane-pcb)
 
 3. Hack Club Hackpad
-- A macropad (think mini-keyboard) which microcontroller
+- A macropad (think mini-keyboard!) which uses a microcontroller as it's brain (Seeed Xiao RP2040)
 - The official design-challenge site is [here](https://hackpad.hackclub.com/)
 - Graphic schematic [here](https://hackpad.hackclub.com/docs/v2/wiredcomponents.png)
-- Lab Project Inspiration 1: [Torn Keyboard](https://github.com/fablabnk/torn/tree/master/torn_left) - for 
-- Lab Project Inspiration 2: [Blot Control Board](https://github.com/fablabnk/blot/tree/main/hardware/motor-control-board/circuit/controller_Kicad) - for Xiao Seed
+- Lab Project Inspiration 1: [Torn Keyboard](https://github.com/fablabnk/torn/tree/master/torn_left) - lots of switches!
+- Lab Project Inspiration 2: [Blot Control Board](https://github.com/fablabnk/blot/tree/main/hardware/motor-control-board/circuit/controller_Kicad) - uses a Seeed Xiao
 
 4. [Moritz Klein Wavefolder](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-wavefolder/) Eurorack Synth Module
 - Involves designing to a given [physical specification](https://doepfer.de/a100_man/a100m_e.htm)
@@ -100,7 +111,9 @@ Let's explore:
 
 # How to Make a Schematic
 
-- [Electrical symbols chart](https://storage.googleapis.com/tb-img/production/23/11/electrical%20symbols%20chart.png)
+- We use [standard electrical symbols](https://storage.googleapis.com/tb-img/production/23/11/electrical%20symbols%20chart.png)
+- We can also make our own symbols or import them from external libraries
+- For today, we will largely just practise recreating existing schematics, to not fall too deep into the electronics theory hole :)
 
 Let's cover some basics of the KiCad Schematic Editor:
 - Placing symbols from the inbuilt library
