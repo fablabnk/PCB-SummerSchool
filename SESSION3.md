@@ -40,21 +40,21 @@ Elements of the layer palette:
 	- Remember that the solder mask layer is subtractive (there by default unless you remove it)
 	- If you draw on the solder mask layer...		
 		- ...and there's no copper underneath: you will see the raw board
-		- ...and there is copper underneath: it will get covered surface finish (more below!)
-		- Solder mask over copper looks darker compared to over raw board
+		- ...and there is copper underneath: it will get covered with surface finish (more below!)
+	- Note that: solder mask over copper looks darker(?) compared to over raw board
 4. Silkscreen ink (optional)
-	- Can only be on top of solder mask, not the raw board or plated copper areas
+	- Can only be drawn on top of solder mask, not the raw board or plated copper areas
 
 ### All about [surface finishes](https://morepcb.com/pcb-surface-finishes/)
 
 - Surface finishes coat any exposed copper areas
 - Correction from last week: exposed copper is not allowed!
-- They are applied (towards the end of the production process](https://youtu.be/jTBOSob5MLg?feature=shared&t=2804)
+- They are applied [towards the end of the production process](https://youtu.be/jTBOSob5MLg?feature=shared&t=2804)
 - They prevent corrosion and aid component soldering
 - Traces are usually covered with mask and pads are usually left exposed
 
 #### Main Types
-- The two main types of surface finish are [HASL and ENIG](https://www.globalwellpcba.com/wp-content/uploads/2024/12/Comparison-of-HASL-vs.-ENIG-surface-finishes-on-PCBs.webp) and have 
+- The two main types of surface finish are [HASL and ENIG](https://www.globalwellpcba.com/wp-content/uploads/2024/12/Comparison-of-HASL-vs.-ENIG-surface-finishes-on-PCBs.webp)
 - HASL: Hot Air Solder Leveling
 	- Silver look, cheaper, somewhat even, good for hand soldering
 - ENIG: Electroless Nickel Immersion Gold
@@ -84,7 +84,11 @@ See if you can identify what the different palette elements are in the following
 	- Improve signal integrity (critical in high-speed or mixed-signal)
 - You can still route traces on the the same copper layer as a plane!
 
-### Routing tracks and vias: tips and tricks
+### Routing Tracks and Vias: Tips and Tricks
 
-- selection top left key
-- track
+- Highlighting nets using the 'nets' view
+- Highlighting with the 'backtick' key
+- Edit pre-defined track widths and via sizes
+- Purpose of the 'U' icon
+- Autorouting
+- Routing modes: Highlight, shove, walkaround
