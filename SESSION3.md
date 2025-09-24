@@ -10,7 +10,7 @@
 - The next two weeks are all about completing and supporting your projects
 - The aim is to order your PCB from JLCPCB during next week's session!
 
-- Quick poll: who is working on what?
+Quick poll: who is working on what?
 
 1. WeevilEye Bug Blinky
 	
@@ -34,16 +34,16 @@
 
 Elements of the layer palette:
 
-	1. PCB substrate (the raw board, in our case FR4)
-	2. Copper (optional)
-	3. Solder mask (optional)
-		- Remember that the solder mask layer is subtractive (there by default unless you remove it)
-		- If you draw on the solder mask layer...
-			- ...and there's no copper underneath: you will see the raw board
-			- ...and there is copper underneath: it will get covered surface finish (more below!)
+1. PCB substrate (the raw board, in our case FR4)
+2. Copper (optional)
+3. Solder mask (optional)
+	- Remember that the solder mask layer is subtractive (there by default unless you remove it)
+	- If you draw on the solder mask layer...		
+		- ...and there's no copper underneath: you will see the raw board
+		- ...and there is copper underneath: it will get covered surface finish (more below!)
 		- Solder mask over copper looks darker compared to over raw board
-	4. Silkscreen ink (optional)
-		- Can only be on top of solder mask, not the raw board or plated copper areas
+4. Silkscreen ink (optional)
+	- Can only be on top of solder mask, not the raw board or plated copper areas
 
 ### All about [surface finishes](https://morepcb.com/pcb-surface-finishes/)
 
