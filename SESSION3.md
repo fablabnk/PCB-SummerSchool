@@ -12,23 +12,23 @@
 
 - Quick poll: who is working on what?
 
-	- WeevilEye Bug Blinky
+1. WeevilEye Bug Blinky
 	
 <img src="https://i5.walmartimages.com/seo/SparkFun-WeevilEye-Beginner-Soldering-Kit_acb6ebd9-f8cb-48f3-9e41-d059137d220a.5e5ec7d989a093506eeb3e1f1036af60.jpeg" alt="WeevilEye" style="width:50%;">
 
-	- 555 Aeroplane
+2. 555 Aeroplane
 
 <img src="https://raw.githubusercontent.com/ANG13T/555-plane-pcb/main/assets/preview.PNG" alt="555Plane" style="width:50%;">
 
-	- Hack Club Hackpad
+3. Hack Club Hackpad
 
 <img src="https://hackpad.hackclub.com/orpheuspadpic.png" alt="Hackpad" style="width:50%;">
 
-	- Moritz Klein Eurorack Module
+4. Moritz Klein Eurorack Module
 
 <img src="https://schneidersladen.de/thumbnail/a8/07/da/1758256319/240631_mki_x_esedu_erica_synths_edu_diy_bbd_2406311_800x800.webp" alt="Moritz" style="width:50%;">
 
-	- Something else? Tell us!
+5. Something else? Tell us!
 
 ### Revisiting our [layer palette](https://morepcb.com/wp-content/uploads/2023/07/PCB-Surface-Finishing-Structure-1.png) (and a correction from last week!)
 
