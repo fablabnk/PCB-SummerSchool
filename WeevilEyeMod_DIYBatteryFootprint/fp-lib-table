@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Airplane Lib")(type "KiCad")(uri "/home/grm/Documents/FabLabProjects/PCB-SummerSchool/GraphicElements")(options "")(descr ""))
+  (lib (name "MyLibrary")(type "KiCad")(uri "${KIPRJMOD}/MyLibrary.pretty")(options "")(descr ""))
+)

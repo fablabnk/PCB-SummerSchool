@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Renata_SMTU2032-LF_1x2032,1,Battery_Cell,
+"D1, D2",LED_D5.0mm,2,LED,
+Q1,TO-92_Inline_Wide,1,2N3904,
+R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,47K,
+"R2, R4",R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,2,220R,
+R3,R_LDR_5.1x4.3mm_P3.4mm_Vertical,1,LDR07,
