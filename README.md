@@ -1,5 +1,7 @@
 This is a repo to support our [_Maker Summer School: Printed Circuit Board Design_](https://www.eventbrite.com/e/maker-summer-school-printed-circuit-board-design-tickets-1604544318249) series of events 
 
+- Reminder to join the Discord server [here](https://discord.gg/XeFhvPQ43z) to share tips and info
+
 ## About the Event Series
 
 - It's a continuation of our FOSS series on open-source tools for fabrication

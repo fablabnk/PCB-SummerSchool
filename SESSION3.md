@@ -3,7 +3,7 @@
 ## Topics for Today
 
 - __Important__: Next week we start at 18:00 and finish at 20:30 (sharp!)
-- Reminder to join the Discord server [here](https://discord.gg/tkvjkEwR) to share tips and info
+- Reminder to join the Discord server [here](https://discord.gg/XeFhvPQ43z) to share tips and info
 
 ### Project Support
 
