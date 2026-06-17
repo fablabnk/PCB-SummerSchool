@@ -16,6 +16,10 @@ From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board je
 
 ​And of course we’ll learn some electronics too as a side effect :)
 
+# Inspirational Projects
+
+See the list [here](./INSPIRATIONAL_PROJECTS.md) - including FabLab members projects!
+
 # 17.06 [Session 1: The Printed Circuit Design Workflow](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
 - Trip to China: Virtual tour of a PCB factory and JLCPCB
 - Anatomy of a Printed Circuit Board
@@ -42,7 +46,5 @@ From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board je
 - ​Case study: Fully-assembled PCBs (e.g. butterfly project)
 - ​Fabrication with JLCPCB: tips and tricks
 
-# Inspirational Projects
 
-See the list [here](./INSPIRATIONAL_PROJECTS.md)
 
