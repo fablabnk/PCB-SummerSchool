@@ -19,7 +19,7 @@ From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board je
 # 17.06 [Session 1: The Printed Circuit Design Workflow](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
 - Trip to China: Virtual tour of a PCB factory and JLCPCB
 - Anatomy of a Printed Circuit Board
-- ​“Hello Hardware World”: Laying out, checking and uploading a WeevilEye Blinky using KiCad
+- ​“Hello Hardware World”: Laying out, checking and uploading a blinky badge using KiCad
 - ​Components and Their Footprints: through-hole vs surface mount
 - ​Choose your own starter project for the coming weeks
 
