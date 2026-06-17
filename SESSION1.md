@@ -113,7 +113,9 @@ The workflow goes like this:
 
 # Next Week
 
-- Before leaving, please sign up again for Session 2 (from next week become a "closed group")
+- Before leaving
+	- please sign up again for Session 2 (from next week become a "closed group")
+	- Join Discord: https://discord.gg/XeFhvPQ43z
 
 - Deeper-dive into the schematics and board designs
 	- Creating schematics and passing the Electrical Rules Check
