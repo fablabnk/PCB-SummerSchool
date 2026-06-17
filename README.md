@@ -1,52 +1,52 @@
-This is a repo to support our [_Maker Summer School: Printed Circuit Board Design_](https://www.eventbrite.com/e/maker-summer-school-printed-circuit-board-design-tickets-1604544318249) series of events 
+This is a repo to support our [_Printed Circuit Board (PCB) Design Summer School_](https://luma.com/ke7vlmk2) series of events 
 
-- Reminder to join the Discord server [here](https://discord.gg/XeFhvPQ43z) to share tips and info
+- Please join the Discord server [here](https://discord.gg/XeFhvPQ43z) to share tips and info
 
-## About the Event Series
+# The Basics
 
-- It's a continuation of our FOSS series on open-source tools for fabrication
-- (Last time we learned FreeCAD together)
-- Today is a general intro, to see if PCB design is your thing
-- If it is, join the "learning pact" for the next 3 weeks to complete/design/send for your own board
+​Join us for Maker Summer School! In this summer series, you can learn how to design your own printed circuit board using the free open source (FOSS) software package KiCad.
 
-## The Basics
+​Over four evening sessions, we'll take you on a gentle dive into the typically hidden-world of everyday electronics and help you start to make your own.
 
-Over four evening sessions, FabLab NK Manager Graham will take you on a gentle dive into the typically hidden-world of everyday electronics and help you start to make your own. All courses will be led in English. From LED ‘blinkies’, to synthesisers, mini-games consoles, keyboards and even PCB jewelry, we will take a look at a series of example projects that we’ve produced in the lab over the last year and use those as learning tools and jumping-off points for your own designs.
+All session takes place from 18:30 in the 42 auditorium.
 
-Modern printed circuit board design is an art form that brings together engineering and artistic perspectives. Using the high-precision manufacturing capabilities of fabrication houses, you can treat a board as your canvas utilising techniques such as masking, silkscreening, copper pours and drilling as your paint palette, allowing you to produce highly original and cost-effective individual designs.
+- The first session is a general intro to the topic, to see if it's your thing
+- If you like it join the "learning pact" for the next 3 weeks to design and send for your own board
+- The best finished boards will be sponsored by the school
 
-And of course we’ll learn some electronics too as a side effect :)
+From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board jewelry and synthesisers - we'll take a look at a series of example projects that we’ve produced over the last year and use those as jumping-off points for your own designs. So whether you're a budding hardware engineer or an artist looking explore a new fabrication technique - you'll find the practical tools you need here.
 
-All session takes place from 18:30, apart from the last session on 1/10 which starts earlier at 18:00
-
-## 10/09 Session 1: Printed Design for Beginners
+​And of course we’ll learn some electronics too as a side effect :)
 
 Detailed doc [here](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
 
-- All about PCBs
-- Introduction to KiCad
-- “Hello World”: laying out a PCB LED ‘blinky’
-- Through-hole vs surface mount designs and component ‘footprint’ choices
-- Checking your design and uploading to a fabrication house
-- Introduction to our starter projects: Hagiwo Mixer, Trigg and Torn
+# 17.06 Session 1: The Printed Circuit Design Workflow
+- Trip to China: Virtual tour of a PCB factory and JLCPCB
+- Anatomy of a Printed Circuit Board
+- ​“Hello Hardware World”: Laying out, checking and uploading a WeevilEye Blinky using KiCad
+- ​Components and Their Footprints: through-hole vs surface mount
+- ​Choose your own starter project for the coming weeks
 
-## 17/09 Session 2: All About Schematics
+​# 24.06 Session 2: Deeper-Dive into Schematics and Boards
+- How to create a schematic (and re-use those of others)
+- ​Performing an electrical rules check (ERC)
+- ​From schematic to board: board shape, footprints and layouts (DRC)
+- ​Assisted individual project time
 
-- Creating (and copying!) schematics
-- Performing an electrical rules check (ERC)
-- From schematic to board
-- Assisted individual project time
+​# 01.07 Session 3: Individual Projects and Advanced Topics
+- Traces vs pours and other routing tips-and-tricks
+- ​"Round-tripping" for artistic PCB design: from KiCad to Inkscape and back
+- ​Case study: Designing to mill-it-yourself (MIY) on our CNC mill
+- ​How to make your own custom symbol and footprints
+- ​Assisted individual project time
 
-## 24/09 Session 3: Individual Projects and Advanced Topics
+​# 08.07 Session 4: Advanced Topics and Ordering
+- Big push to complete and order your designs!
+- ​Design options: beyond 2-layer boards and rigid PCBs
+- ​Case study: Fully-assembled PCBs (e.g. butterfly project)
+- ​Fabrication with JLCPCB: tips and tricks
 
-- Make your own custom symbol and footprints
-- Routing traces and tips and tricks
-- Round-tripping: from KiCad to Inkscape and back with Trigg
-- Assisted individual project time
+# Inspirational Projects
 
-## 1/10 Session 4: Advanced Topics and Fabrication
+See the list [here](./INSPIRATIONAL_PROJECTS.md)
 
-- Beyond 2-layer boards
-- Designing to mill it yourself (MIY)
-- Fabrication with JLCPCB: Tips and Tricks
-- Assisted individual project time

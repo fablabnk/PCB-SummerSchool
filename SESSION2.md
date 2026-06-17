@@ -93,18 +93,6 @@ Let's explore:
 - A slight more advanced 'blinky' project with flashing LEDs using a 555 timer chip
 - Graphic schematic [here](https://github.com/ANG13T/555-plane-pcb/blob/main/assets/schematic.PNG) and original project repo [here](https://github.com/ANG13T/555-plane-pcb)
 
-3. Hack Club Hackpad
-- A macropad (think mini-keyboard!) which uses a microcontroller as it's brain (Seeed Xiao RP2040)
-- The official design-challenge site is [here](https://hackpad.hackclub.com/)
-- Graphic schematic [here](https://hackpad.hackclub.com/docs/v2/wiredcomponents.png)
-- Lab Project Inspiration 1: [Torn Keyboard](https://github.com/fablabnk/torn/tree/master/torn_left) - lots of switches!
-- Lab Project Inspiration 2: [Blot Control Board](https://github.com/fablabnk/blot/tree/main/hardware/motor-control-board/circuit/controller_Kicad) - uses a Seeed Xiao
-
-4. [Moritz Klein Wavefolder](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-wavefolder/) Eurorack Synth Module
-- Involves designing to a given [physical specification](https://doepfer.de/a100_man/a100m_e.htm)
-- Could also involve making a PCB-as-panel
-- Lab Project Inspiration: [SynthLab Mixer](https://github.com/fablabnk/HagiwoMixer)
-
 # How to Make a Schematic
 
 - We use [standard electrical symbols](https://storage.googleapis.com/tb-img/production/23/11/electrical%20symbols%20chart.png)
