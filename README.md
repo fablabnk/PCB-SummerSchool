@@ -21,7 +21,7 @@ From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board je
 - Anatomy of a Printed Circuit Board
 - ​“Hello Hardware World”: Laying out, checking and uploading a blinky badge using KiCad
 - ​Components and Their Footprints: through-hole vs surface mount
-- ​Choose your own starter project for the coming weeks
+- ​Choose your own project for the coming weeks
 
 # 24.06 Session 2: Deeper-Dive into Schematics and Boards
 - How to create a schematic (and re-use those of others)
