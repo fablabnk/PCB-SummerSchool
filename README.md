@@ -16,9 +16,7 @@ From LED 'blinky' badges to, mini-keyboards and games-consoles, circuit-board je
 
 ​And of course we’ll learn some electronics too as a side effect :)
 
-Detailed doc for Session 1 is [here](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
-
-# 17.06 Session 1: The Printed Circuit Design Workflow
+# 17.06 [Session 1: The Printed Circuit Design Workflow](https://github.com/fablabnk/PCB-SummerSchool/blob/main/SESSION1.md)
 - Trip to China: Virtual tour of a PCB factory and JLCPCB
 - Anatomy of a Printed Circuit Board
 - ​“Hello Hardware World”: Laying out, checking and uploading a WeevilEye Blinky using KiCad
