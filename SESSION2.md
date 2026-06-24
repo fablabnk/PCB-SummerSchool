@@ -1,53 +1,101 @@
 # Session 2
 
-## Topics for Today
+## Intro
 
-- _Introduction Round_
-- Join the Discord server [here](https://discord.gg/tkvjkEwR) to share tips and info
-- Recap of Last Week's Workflow
-- Silkscreening and Other Artistic Techniques
-- It's "Choose a End-Goal Project" Time :)
-- How to Make a Schematic
-- _Session Break_
-- Supported Project Work
+- Let's get the seating right!
+- Join the Discord server [here](https://discord.gg/7TVYa3dYY) to share tips and info
+- It's encouraged to work in teams & collaborate (and a disclaimer)
+- Levelling up to use microcontrollers
 
-## Recap of Workflow
+## Today's Topics
 
-1. Make a schematic, perform ERC check
-	- More on this today!
-2. Assign footprints to components
-	- Through-hole vs surface mount
-	- Perform physical component check (calipers out!)
-3. Setup your board
-	- In PCB Editor go to "File -> Board Setup" and pay attention to:
-		- Board Stackup: "Board Editor Layers" and "Physical Stackup" pages
-		- Design Rules: Constraints (ideally should match [JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities))
-4. Draw/import board outline
-	- On the "edge cuts" layer!
-5. Layout the PCB
-	- Place your components
-	- Perform DRC check
-6. Route traces/create planes
-	- Perform DRC check (yes, again!)
-7. Export, upload and check
-	- Install Fabrication Toolkit plugin
-	- Export Gerber/Drill Files, Upload to JLCPCB, Perform Online DFM check (1st time)
-8. Add and position silkscreening and graphics
-	- Position component references for hand soldering
-	- Add cool looking graphics
-	- Perform final visual check in 3D Viewer
-	- Export Gerber/Drill Files, Upload to JLCPCB, Perform Online DFM check (2nd time)
+6:30pm
 
-## Silkscreening and Other Artistic Techniques
+- Case Study: Artistic Round Tripping with Hilary and the Disarray Desnarler
+- Kicad Workflow Recap Demo (Building a Aeroplane Badge Expansion)
+	-- https://github.com/ANG13T/555-plane-pcb
+	-- https://github.com/emfcamp/badge-2024-hardware/tree/main/hexpansion
+- Creating your first KiCad schematic
+	1. Understand and replicate a schematic from a PDF: Unicorn / WeevilEye / 555 Plane
+	2. Pass the ERC check
+	3. Assign footprints
+- Choose your own project time!
 
-Remember that the [PCB is our palette](https://github.com/fablabnk/PCB-SummerSchool/tree/main/PCBPalette.png) and there are many ways to use it's features and limitations creatively.
+7:40pm
 
-Let's explore:
-- Silkscreening
-- Exposing the raw board
-- Exposing copper pours
-- Artistic plating
-- Artistic use of holes/cutouts
+- Short Break 
+
+9:00pm
+
+- Individual practice time
+- Tips for importing graphics from design software (e.g. Inkscape)
+
+## How 555 flasher circuit works
+
+https://everycircuit.com/circuit/4998831909634048/flashing-led-with-555-timer
+
+In this circuit, the 555 timer is configured as an oscillator to create a continuous square wave output that switches the LED on and off, as follows:
+
+1. **Charging (LED ON):** Current flows through resistors R2 and R2 to charge capacitor C1. During this time, **Pin 3 (Output)** is HIGH, turning the LED on.
+2. **The Switch:** When the capacitor voltage reaches 2/3 of the supply voltage, **Pin 6 (Threshold)** triggers the timer to flip its state.
+3. **Discharging (LED OFF):** Pin 3 goes LOW (turning the LED off), and **Pin 7 (Discharge)** opens an internal path to ground. The capacitor discharges through R2 only.
+4. **The Reset:** When the capacitor voltage drops to 1/3 of VCC, **Pin 2 (Trigger)** resets the timer, turning the LED back on and repeating the cycle indefinitely.
+
+## How to Make a Schematic
+
+- We use [standard electrical symbols](https://storage.googleapis.com/tb-img/production/23/11/electrical%20symbols%20chart.png)
+- We can also make our own symbols or import them from external libraries
+
+Let's cover some basics of the KiCad Schematic Editor:
+- Placing symbols from the inbuilt library
+- Wiring and junctions
+- Adding ground, voltage and labels
+- Performing an Electrical Rules Check (ERC)
+- Adding Power Flags
+- Important: pass ERC before moving on to laying our your PCB
+- Importing symbols/symbol libraries (i.e. Seeed Xiao RP2040 Microcontroller)
+
+## Changes in our version of the circuit
+
+We:
+- use a potentiometer to dynamically adjust the resitance and change the on/off switching time
+- flash three LEDS not one (2 red on wings, 1 green on taillight)
+- use 3V3 not 9V (so we'll need to change our 300Ohm resistor)
+
+### Microcontroller mods
+
+To control this 555 timer circuit using a microcontroller GPIO pin, you have a few concise options depending on how you want to manipulate it:
+
+### 1. Hard On/Off Control (via Pin 4 - Reset)
+
+Disconnect **Pin 4 (Reset)** from the positive supply VCC and connect it directly to your GPIO pin.
+
+* **GPIO HIGH:** The 555 timer runs normally, and the LED flashes.
+* **GPIO LOW:** The 555 timer is forced into reset mode. Pin 3 stays LOW, and the LED stays completely off.
+
+### 2. Flash Rate Modulation (via Pin 5 - Control Voltage)
+
+Connect your GPIO pin configured to output **PWM (Pulse-Width Modulation)** through a low-pass filter (or a smooth analog voltage) to **Pin 5**.
+
+* Changing the voltage on Pin 5 alters the upper threshold 2/3 VCC internal limit.
+* **Higher GPIO voltage** slows down the flashing; **lower GPIO voltage** speeds it up.
+
+## It's "Choose a End Goal" Project Time" :)
+
+- Below are some project ideas along with [schematic graphics](https://github.com/fablabnk/PCB-SummerSchool/tree/main/SchematicGraphics) (to blatantly copy!)
+- Your own projects are also totally welcome!
+- Decide which is most feasible/achievable for you in the next two weeks
+- Would be great to work in groups, with different variations on the same project
+
+1. WeevilEye Blinky
+- Graphic schematic [here](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
+- Start from scratch and work on your own creative board design
+
+2. 555 Aeroplane Badge Hexpansion
+- A slight more advanced 'blinky' project with flashing LEDs using a 555 timer chip
+	-- https://github.com/ANG13T/555-plane-pcb
+- Can be combined with a 'badge hexpansion'
+	-- https://github.com/emfcamp/badge-2024-hardware/tree/main/hexpansion
 
 ## Importing Vector Graphics
 
@@ -77,33 +125,3 @@ Let's explore:
 	- Name the library, in "Libary Path" navigate to the folder containing airplane.png, and click OK
 	- Place footprint as normal (chip icon in right hand palette or keyboard shortcut 'A') 
 	- Type 'airplane' to find your footprint
-
-## It's "Choose a End Goal" Project Time" :)
-
-- Below are some project ideas along with [schematic graphics](https://github.com/fablabnk/PCB-SummerSchool/tree/main/SchematicGraphics) (to blatantly copy!)
-- Your own projects are also totally welcome!
-- Decide which is most feasible/achievable for you in the next two weeks
-- Would be great to work in groups, with different variations on the same project
-
-1. WeevilEye Blinky
-- Graphic schematic [here](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
-- Start from scratch and work on your own creative board design
-
-2. 555 Aeroplane
-- A slight more advanced 'blinky' project with flashing LEDs using a 555 timer chip
-- Graphic schematic [here](https://github.com/ANG13T/555-plane-pcb/blob/main/assets/schematic.PNG) and original project repo [here](https://github.com/ANG13T/555-plane-pcb)
-
-# How to Make a Schematic
-
-- We use [standard electrical symbols](https://storage.googleapis.com/tb-img/production/23/11/electrical%20symbols%20chart.png)
-- We can also make our own symbols or import them from external libraries
-- For today, we will largely just practise recreating existing schematics, to not fall too deep into the electronics theory hole :)
-
-Let's cover some basics of the KiCad Schematic Editor:
-- Placing symbols from the inbuilt library
-- Wiring and junctions
-- Adding ground, voltage and labels
-- Performing an Electrical Rules Check (ERC)
-- Adding Power Flags
-- Important: pass ERC before moving on to laying our your PCB
-- Importing symbols/symbol libraries (i.e. Seeed Xiao RP2040 Microcontroller)

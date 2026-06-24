@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_1060_1x2032,1,Battery_Cell,
+D1,LED_D2.0mm_W4.8mm_H2.5mm_FlatTop,1,LED,
+"D2, D3, D4",5mm_SMD-Pad,3,LED,
+SW1,Push_Button,1,SW_DIP_x01,
