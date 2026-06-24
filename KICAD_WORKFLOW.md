@@ -17,7 +17,7 @@
     - [ ]  Systematically route the "rats-nest"
     - [ ]  Perform the DRC check (yes, again!)
 8. Export, Upload and Check
-    - [ ]  Install the “Fabrication Toolkit” plugi
+    - [ ]  Install the “Fabrication Toolkit” plugin
     - [ ]  Use it to export a production .zip file (Gerber/Drill Files)
     - [ ]  Upload to JLCPCB, perform Design For Manufacture (DFM) check (jlcdfm.com) & correct
 9. Add silkscreening and graphics

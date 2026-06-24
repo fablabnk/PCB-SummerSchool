@@ -9,7 +9,7 @@
 
 ## Today's Topics
 
-_6:30pm_
+__6:30pm__
 
 - Case Study: Artistic Round Tripping with Hilary and the Disarray Desnarler
 - Kicad Workflow Recap Demo (Building a Aeroplane Badge Expansion)
@@ -21,14 +21,15 @@ _6:30pm_
 	3. Assign footprints
 - Choose your own project time!
 
-_7:40pm_
+__7:40pm__
 
 - Short Break 
 
-_7:50pm_
+__7:50pm__
 
 - Individual practice time
 - Tips for importing graphics from design software (e.g. Inkscape)
+	- Example: https://github.com/fablabnk/Trigg
 
 ## How to Make a Schematic
 
@@ -119,6 +120,8 @@ Connect your GPIO pin configured to output **PWM (Pulse-Width Modulation)** thro
 - Open your bitmap image (e.g. [airplane.png](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/airplane.png))
 - Set black/white threshold and check result in "Black & White Picture" tab
 - Select Output Format: Footprint
+- Click "Export to Clipboard" (easier way)
+Or
 - Click "Export to File..." and save
 - In PCB Editor
 	- Go to Preferences -> Manage Footprint Libraries
