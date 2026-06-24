@@ -9,37 +9,26 @@
 
 ## Today's Topics
 
-6:30pm
+_6:30pm_
 
 - Case Study: Artistic Round Tripping with Hilary and the Disarray Desnarler
 - Kicad Workflow Recap Demo (Building a Aeroplane Badge Expansion)
-	-- https://github.com/ANG13T/555-plane-pcb
-	-- https://github.com/emfcamp/badge-2024-hardware/tree/main/hexpansion
+	- https://github.com/ANG13T/555-plane-pcb
+	- https://github.com/emfcamp/badge-2024-hardware/tree/main/hexpansion
 - Creating your first KiCad schematic
 	1. Understand and replicate a schematic from a PDF: Unicorn / WeevilEye / 555 Plane
 	2. Pass the ERC check
 	3. Assign footprints
 - Choose your own project time!
 
-7:40pm
+_7:40pm_
 
 - Short Break 
 
-9:00pm
+_7:50pm_
 
 - Individual practice time
 - Tips for importing graphics from design software (e.g. Inkscape)
-
-## How 555 flasher circuit works
-
-https://everycircuit.com/circuit/4998831909634048/flashing-led-with-555-timer
-
-In this circuit, the 555 timer is configured as an oscillator to create a continuous square wave output that switches the LED on and off, as follows:
-
-1. **Charging (LED ON):** Current flows through resistors R2 and R2 to charge capacitor C1. During this time, **Pin 3 (Output)** is HIGH, turning the LED on.
-2. **The Switch:** When the capacitor voltage reaches 2/3 of the supply voltage, **Pin 6 (Threshold)** triggers the timer to flip its state.
-3. **Discharging (LED OFF):** Pin 3 goes LOW (turning the LED off), and **Pin 7 (Discharge)** opens an internal path to ground. The capacitor discharges through R2 only.
-4. **The Reset:** When the capacitor voltage drops to 1/3 of VCC, **Pin 2 (Trigger)** resets the timer, turning the LED back on and repeating the cycle indefinitely.
 
 ## How to Make a Schematic
 
@@ -55,7 +44,19 @@ Let's cover some basics of the KiCad Schematic Editor:
 - Important: pass ERC before moving on to laying our your PCB
 - Importing symbols/symbol libraries (i.e. Seeed Xiao RP2040 Microcontroller)
 
-## Changes in our version of the circuit
+## How 555 flasher circuit works
+
+Interactive circuit here:
+https://everycircuit.com/circuit/4998831909634048/flashing-led-with-555-timer
+
+In this circuit, the 555 timer is configured as an oscillator to create a continuous square wave output that switches the LED on and off, as follows:
+
+1. **Charging (LED ON):** Current flows through resistors R2 and R2 to charge capacitor C1. During this time, **Pin 3 (Output)** is HIGH, turning the LED on.
+2. **The Switch:** When the capacitor voltage reaches 2/3 of the supply voltage, **Pin 6 (Threshold)** triggers the timer to flip its state.
+3. **Discharging (LED OFF):** Pin 3 goes LOW (turning the LED off), and **Pin 7 (Discharge)** opens an internal path to ground. The capacitor discharges through R2 only.
+4. **The Reset:** When the capacitor voltage drops to 1/3 of VCC, **Pin 2 (Trigger)** resets the timer, turning the LED back on and repeating the cycle indefinitely.
+
+### Changes in our version of the circuit
 
 We:
 - use a potentiometer to dynamically adjust the resitance and change the on/off switching time
