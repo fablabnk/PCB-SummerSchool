@@ -79,31 +79,47 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|173752000|84890000|b67fe717-c188-41df-9941-29206f573895|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|167291000|81207000|75d7e6fd-b7be-478d-9fa8-5eabd7d89a48|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|201152000|58347000|a99f4c5b-fe8d-40a7-bb5c-97938824c7dc|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|177435000|89970000|e05f87f6-19a9-42f7-aa2e-594dd6a8d352|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|201565000|65223000|738c007e-6582-4378-b75b-3460aaa6ae4c|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|183023000|82731000|a5e2e1e7-78f5-400a-ae86-49484f13f3f8|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|208677000|80318000|40d7a057-8224-4b6d-986a-f093e0690b98|00000000-0000-0000-0000-000000000000",
+          "footprint_type_mismatch|207248000|98679000|fad109fa-b643-4941-945c-ebeaf8a0821e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "footprint_type_mismatch|221931000|77851000|c1b3b13e-b13f-499d-bd46-3f11e48cf23f|00000000-0000-0000-0000-000000000000",
+          "invalid_outline|176515641|104106547|5fc27c35-3e1c-4f96-817c-93b5570858a6|9cbf35b8-f4d3-42a3-bb16-04ffd03fd8fd",
           ""
         ],
         [
-          "invalid_outline|158754513|106033187|9b3c58a7-a9b9-4498-abc0-f9f43e4f0292|a5cd8da1-8f7f-4f80-bb23-0317de562222",
+          "invalid_outline|223245671|45642215|a4f86a46-3bc8-4daa-9125-a63f297eb114|ee27d19c-8dca-4ac8-a760-6dfd54d28071",
           ""
         ],
         [
-          "invalid_outline|223245671|45642215|a4f86a46-3bc8-4daa-9125-a63f297eb114|b7867831-ef82-4f33-a926-59e5c1c09b91",
+          "invalid_outline|223245671|45642215|b7867831-ef82-4f33-a926-59e5c1c09b91|ee27d19c-8dca-4ac8-a760-6dfd54d28071",
+          ""
+        ],
+        [
+          "lib_footprint_issues|178823000|110863663|ffe6e48d-9d88-4fe3-9674-379e71482ee9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|178823000|113935000|c23cde80-05a1-43c5-b64a-0ce555f0f98b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|178876571|107160000|1500de20-37c5-4215-910f-bb6e555b6b37|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168409999|88076819|bb676502-086a-448c-8bfa-2d18dd92ba40|1d961b65-b984-43ce-b07f-64ad624c4b7d",
           ""
         ]
       ],
@@ -196,7 +212,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -245,7 +261,8 @@
       ],
       "track_widths": [
         0.0,
-        1.0
+        1.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
