@@ -57,6 +57,8 @@ Elements of the layer palette:
 4. Silkscreen ink (optional)
 	- Can only be drawn on top of solder mask, not the raw board or plated copper areas
 
+# Extra topics (probably we won't have time for these in the session today)
+
 ## All about [surface finishes](https://morepcb.com/pcb-surface-finishes/)
 
 - Surface finishes coat any exposed copper areas
