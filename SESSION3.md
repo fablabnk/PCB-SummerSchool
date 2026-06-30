@@ -1,36 +1,48 @@
 # Session 3
 
 ## Topics for Today
-
-- __Important__: Next week we start at 18:00 and finish at 20:30 (sharp!)
-- Reminder to join the Discord server [here](https://discord.gg/XeFhvPQ43z) to share tips and info
-
-### Project Support
-
+- Visit from Jule: artistic PCB design process
 - The next two weeks are all about completing and supporting your projects
 - The aim is to order your PCB from JLCPCB during next week's session!
 
-Quick poll: who is working on what?
+## Project poll and team formation
+- Who's working on what? Who has a project, who doesn't?
+- Let's form teams of three (ideally two people with a similar project, one person without a project)
+- Each team should aim to submit one board during next week's session
+- The fablab will sponsor the 5 most complete projects
 
-1. WeevilEye Bug Blinky
-	
-<img src="https://i5.walmartimages.com/seo/SparkFun-WeevilEye-Beginner-Soldering-Kit_acb6ebd9-f8cb-48f3-9e41-d059137d220a.5e5ec7d989a093506eeb3e1f1036af60.jpeg" alt="WeevilEye" style="width:30%;">
+## Importing Vector Graphics
 
-2. 555 Aeroplane
+- Here are some [vector graphic elements](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/TriggGraphicElements.svg) to experiment with from our fablab [Trigg Mini-Games Console](https://github.com/fablabnk/trigg/tree/main/hardware/mainboard_PCB/kicad) project
+- Vector graphics means .svg or .dxf files
+- [Inkscape](https://inkscape.org/) is probably the best open source tool to open/work with these elements (or Adobe Illustrator if you have it)
 
-<img src="https://raw.githubusercontent.com/ANG13T/555-plane-pcb/main/assets/preview.PNG" alt="555Plane" style="width:30%;">
+### The Import Process
 
-3. Hack Club Hackpad
+- Pick a graphic element you like from the elements provided.
+- Export it from Inkscape as a separate .svg file
+- For this example I will use an [aeroplane .svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/BoardOutlinePlane.svg)
+- Import it into PCB Editor using: "File -> Import -> Graphics"
+- Choose which board layer you would like to import it to (in our case "Edge Cuts" for board outline)
+- To size it, you may have to keep reimporting and adjusting "import scale" parameter (no draggable resizing possible, unbelievably!)
 
-<img src="https://hackpad.hackclub.com/orpheuspadpic.png" alt="Hackpad" style="width:30%;">
+## Importing BitMaps as Footprints
 
-4. Moritz Klein Eurorack Module
+- In Project Window choose "Image Convertor"
+- Open your bitmap image (e.g. [airplane.png](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/airplane.png))
+- Set black/white threshold and check result in "Black & White Picture" tab
+- Select Output Format: Footprint
+- Click "Export to Clipboard" (easier way)
+Or
+- Click "Export to File..." and save
+- In PCB Editor
+	- Go to Preferences -> Manage Footprint Libraries
+	- Select "Project Specific Libraries" tab
+	- Name the library, in "Libary Path" navigate to the folder containing airplane.png, and click OK
+	- Place footprint as normal (chip icon in right hand palette or keyboard shortcut 'A') 
+	- Type 'airplane' to find your footprint
 
-<img src="https://schneidersladen.de/thumbnail/a8/07/da/1758256319/240631_mki_x_esedu_erica_synths_edu_diy_bbd_2406311_800x800.webp" alt="Moritz" style="width:30%;">
-
-5. Something else? Tell us!
-
-### Revisiting our [layer palette](https://morepcb.com/wp-content/uploads/2023/07/PCB-Surface-Finishing-Structure-1.png) (and a correction from last week!)
+## Revisiting our [layer palette](https://morepcb.com/wp-content/uploads/2023/07/PCB-Surface-Finishing-Structure-1.png) (and a correction from last week!)
 
 Elements of the layer palette:
 
@@ -45,7 +57,7 @@ Elements of the layer palette:
 4. Silkscreen ink (optional)
 	- Can only be drawn on top of solder mask, not the raw board or plated copper areas
 
-### All about [surface finishes](https://morepcb.com/pcb-surface-finishes/)
+## All about [surface finishes](https://morepcb.com/pcb-surface-finishes/)
 
 - Surface finishes coat any exposed copper areas
 - Correction from last week: exposed copper is not allowed!
@@ -53,7 +65,7 @@ Elements of the layer palette:
 - They prevent corrosion and aid component soldering
 - Traces are usually covered with mask and pads are usually left exposed
 
-#### Main Types
+### Main Types
 - The two main types of surface finish are [HASL and ENIG](https://www.globalwellpcba.com/wp-content/uploads/2024/12/Comparison-of-HASL-vs.-ENIG-surface-finishes-on-PCBs.webp)
 - HASL: Hot Air Solder Leveling
 	- Silver look, cheaper, somewhat even, good for hand soldering
@@ -61,7 +73,7 @@ Elements of the layer palette:
 	- Gold bling look, more expensive, flatter and more uniform
 - And there are more...
 
-### Design examples 
+## Design examples 
 
 See if you can identify what the different palette elements are in the following designs:
 
@@ -73,18 +85,18 @@ See if you can identify what the different palette elements are in the following
 
 - Synthux Academy [Simple Touch 2](https://cdn.prod.website-files.com/60222aa91a44ab23049ee333/671a056e4a76a7253300fbdf_Simple-Touch-2-Synthux-Academy-crop.jpg)
 
-### Planes and pours and their usage
+## Planes and pours and their usage
 
 - Planes: for power, ground, or artistic purposes
 - Electrical benefits of planes are that they:
-	- Provide low-impedance paths for return currents
+- Provide low-impedance paths for return currents
 	- Enable robust power distribution across the board
 	- Aid thermal management preventing hot spots and acting as heat sinks
 	- Reduce noise and electromagnetic interference
 	- Improve signal integrity (critical in high-speed or mixed-signal)
 - You can still route traces on the the same copper layer as a plane!
 
-### Routing Tracks and Vias: Tips and Tricks
+## Routing Tracks and Vias: Tips and Tricks
 
 - Highlighting nets using the 'nets' view
 - Highlighting with the 'backtick' key
