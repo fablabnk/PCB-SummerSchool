@@ -77,7 +77,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|173752000|84890000|b67fe717-c188-41df-9941-29206f573895|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|201152000|58347000|a99f4c5b-fe8d-40a7-bb5c-97938824c7dc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|201565000|65223000|738c007e-6582-4378-b75b-3460aaa6ae4c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|208677000|80318000|40d7a057-8224-4b6d-986a-f093e0690b98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|221931000|77851000|c1b3b13e-b13f-499d-bd46-3f11e48cf23f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "invalid_outline|158754513|106033187|9b3c58a7-a9b9-4498-abc0-f9f43e4f0292|a5cd8da1-8f7f-4f80-bb23-0317de562222",
+          ""
+        ],
+        [
+          "invalid_outline|223245671|45642215|a4f86a46-3bc8-4daa-9125-a63f297eb114|b7867831-ef82-4f33-a926-59e5c1c09b91",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

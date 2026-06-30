@@ -18,8 +18,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 3.81 3.1116 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+				(at 3.81 0.5716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -157,7 +157,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -175,7 +175,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
@@ -1086,355 +1086,224 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 158.75 66.04)
+		(at 53.34 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e28802b-f863-4a2e-b738-40bc82c764a4")
+		(uuid "0ce97223-00db-454e-b4f7-192eef688ced")
 	)
 	(junction
-		(at 137.16 97.79)
+		(at 71.12 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f6fa64c-c46e-4cde-b7d5-fa6717ed48fb")
+		(uuid "30a419ef-1576-4b58-8713-7592b186b315")
 	)
 	(junction
-		(at 137.16 66.04)
+		(at 53.34 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d08fc82-6999-4727-b2b8-e76d3364d189")
+		(uuid "444affec-41f6-48a1-8edb-b78812caa8f4")
 	)
 	(junction
-		(at 118.11 109.22)
+		(at 71.12 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7d8ced3-8278-4cdc-a649-3ead798f2594")
-	)
-	(junction
-		(at 158.75 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8c6dfa6-804f-41fc-b766-52bdaaa6d7ed")
+		(uuid "febada5f-cf8d-4d6b-a323-3477dc5c54ff")
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 137.16 85.09)
+			(xy 88.9 74.93) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a446533-853f-4903-99ed-6a61ed00c97b")
+		(uuid "03c07395-bfd8-4d36-8f8d-996a66aa5f05")
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 72.39)
+			(xy 71.12 72.39) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2231def2-b312-42d6-b327-833267033289")
+		(uuid "0561b9db-c162-4490-8197-6edf76b32321")
 	)
 	(wire
 		(pts
-			(xy 137.16 66.04) (xy 118.11 66.04)
+			(xy 33.02 41.91) (xy 33.02 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34a84047-c817-4302-bddb-f0bbf3956fd6")
+		(uuid "109c38e0-adc6-411f-b3fe-7d01fe147ab9")
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 137.16 97.79)
+			(xy 53.34 88.9) (xy 53.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46ef79a9-9536-48e2-ae94-887a94ba398d")
+		(uuid "1bd67d04-4dd5-4f38-b1ae-fde9362aa0f9")
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 158.75 97.79)
+			(xy 71.12 54.61) (xy 71.12 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74c25ae9-b6ab-4f67-917d-fdb2f74da700")
+		(uuid "1ced61ca-d779-47e7-ae48-66f5c958dad0")
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 177.8 97.79)
+			(xy 71.12 41.91) (xy 71.12 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88f45e22-83cb-4815-90c5-c4b9e6a05d63")
+		(uuid "1da4955a-7af4-46eb-ba1d-264d5366dbad")
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 158.75 66.04)
+			(xy 53.34 74.93) (xy 53.34 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "894dcda1-92af-4a96-8a0d-722369b58ebe")
+		(uuid "2c83e16c-f2fb-401b-9de0-72da97e34e54")
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 158.75 85.09)
+			(xy 53.34 74.93) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c2176c7-88a1-42a1-8b2e-6c69a647c29c")
+		(uuid "2e44f8e5-59f9-43fc-a475-ad1cfb02507b")
 	)
 	(wire
 		(pts
-			(xy 158.75 97.79) (xy 158.75 101.6)
+			(xy 53.34 41.91) (xy 71.12 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d39c540-6c7d-4a4a-aaed-12cf9753520d")
+		(uuid "4b628475-ec7b-4036-9950-3f0f3a15aa35")
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 110.49)
+			(xy 33.02 41.91) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91692972-0349-42d5-a342-6c39b5075cb1")
+		(uuid "51c6aacf-a7fc-4eca-91a7-48f4a421eeed")
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 137.16 97.79)
+			(xy 33.02 72.39) (xy 33.02 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae84c9fc-000a-42db-8f5c-d373d45172ae")
+		(uuid "5d32dd98-788c-4b60-b180-cdf1ffc669b4")
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 137.16 66.04)
+			(xy 88.9 41.91) (xy 88.9 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b35c8ea7-97f0-4454-b14a-b5de6bd9b746")
+		(uuid "64f00e0f-a8db-4365-9154-2c3d6c59e2f5")
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 158.75 66.04)
+			(xy 53.34 72.39) (xy 53.34 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8c398f8-ebf5-4e3a-adbe-c190aa704656")
+		(uuid "68d808d0-f293-4ed7-bda2-6d803f5e946b")
 	)
 	(wire
 		(pts
-			(xy 118.11 109.22) (xy 118.11 111.76)
+			(xy 71.12 74.93) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba859e0a-b3a4-4015-96a1-cecc854c3f82")
+		(uuid "6e214b35-1dfb-4935-aca8-b1384a011ee6")
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 118.11 85.09)
+			(xy 88.9 72.39) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c01ecf67-d15b-40db-b760-d338a433ce44")
+		(uuid "9542955c-b54b-4d16-86bd-555a48ea3f35")
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 109.22)
+			(xy 88.9 54.61) (xy 88.9 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecb28c5f-ea7c-4005-bc8c-12a8bbd09b53")
+		(uuid "9547d6a0-c235-44c7-bb8b-4d2231931ccc")
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 158.75 97.79)
+			(xy 71.12 41.91) (xy 88.9 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecf5b83b-d210-4185-ba93-3799a95b8fff")
+		(uuid "aadce49c-452b-4cba-99a4-057288ad58cc")
 	)
 	(wire
 		(pts
-			(xy 177.8 80.01) (xy 177.8 85.09)
+			(xy 53.34 41.91) (xy 53.34 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f622ccf3-a7c7-46d0-a2e5-b680e2bbb635")
+		(uuid "ae17cd42-676c-41ca-9d0f-3f4e9f6bf762")
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 137.16 102.87)
+			(xy 63.5 83.82) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f65ebb82-ff09-45e9-bee4-3c053cf9381a")
-	)
-	(wire
-		(pts
-			(xy 151.13 106.68) (xy 151.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8314e5d-48a4-4f24-bf08-798d2aad272b")
+		(uuid "b2a2fbb4-b7e9-45f8-a5c3-9de664ffca44")
 	)
 	(symbol
 		(lib_id "Sensor_Optical:LDR07")
-		(at 137.16 106.68 0)
+		(at 53.34 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1443,9 +1312,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "042e1b89-47f7-4c79-9943-5ffadac190b8")
+		(uuid "25731b1a-9724-4228-8424-d6b5c8eb8d7e")
 		(property "Reference" "R3"
-			(at 139.7 105.4099 0)
+			(at 55.88 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,7 +1325,7 @@
 			)
 		)
 		(property "Value" "LDR07"
-			(at 139.7 107.9499 0)
+			(at 55.88 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1467,7 +1336,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
-			(at 141.605 106.68 90)
+			(at 57.785 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +1347,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf"
-			(at 137.16 107.95 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1489,7 +1358,7 @@
 			)
 		)
 		(property "Description" "light dependent resistor"
-			(at 137.16 106.68 0)
+			(at 53.34 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1500,10 +1369,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b816907b-8af1-46dc-87f2-15caaaa37300")
+			(uuid "bf580d94-1dc8-40f7-9197-054eb90313d0")
 		)
 		(pin "2"
-			(uuid "dcf61771-4f84-4d7b-b047-707778826808")
+			(uuid "61cdcaaa-a9dd-4f9c-996c-a9b8ac37859f")
 		)
 		(instances
 			(project "WeevilEyeMod"
@@ -1515,328 +1384,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 118.11 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2507194d-c124-4774-93a2-6868ac9a8a12")
-		(property "Reference" "#FLG02"
-			(at 116.205 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 114.3 109.2199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26d5c881-8631-4227-a52a-4e86a14af249")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 118.11 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "510f535b-4869-450f-9403-7c58f123ca84")
-		(property "Reference" "BT1"
-			(at 121.92 87.0584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 121.92 89.5984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 88.646 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 88.646 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 118.11 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44225670-b1d6-4879-88c5-38017eb97502")
-		)
-		(pin "1"
-			(uuid "9e549792-8309-499a-b9fb-039a244c3132")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b7bcb3e-4e8c-47eb-9ae5-e35f13f14809")
-		(property "Reference" "#PWR03"
-			(at 118.11 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94bc18ad-dc8f-4027-a35f-2e8525489e77")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ca471a2-19d2-4273-b9f0-5d00c03200c6")
-		(property "Reference" "R4"
-			(at 180.34 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220R"
-			(at 180.34 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.022 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efdb2155-081f-4385-a563-5d7d44cc4dc1")
-		)
-		(pin "2"
-			(uuid "33976cca-5a3c-4089-b32c-11c889d5657b")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 158.75 76.2 90)
+		(at 88.9 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1845,432 +1394,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8792e90c-d515-4493-80a7-5e7dbc389658")
-		(property "Reference" "D1"
-			(at 162.56 76.5174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 162.56 79.0574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 158.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a19b513-6b8f-4831-bb66-acccddb86ab7")
-		)
-		(pin "1"
-			(uuid "14aa463b-36d9-4cbb-8a86-5612e6a87bec")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 156.21 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88a50611-cffd-461d-867b-88dd39cc0bc1")
-		(property "Reference" "Q1"
-			(at 161.29 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 161.29 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 161.29 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 156.21 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 156.21 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88623956-5b77-4116-a902-a9120f1ec285")
-		)
-		(pin "3"
-			(uuid "a88d7ac3-f96a-405e-8795-24929a1e5b73")
-		)
-		(pin "1"
-			(uuid "7ebbe969-dec2-4f7e-8daf-c8a861f3a429")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96a89a68-7d00-46bb-9c22-3ce0751b7a52")
-		(property "Reference" "#PWR01"
-			(at 137.16 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55c27ba0-bf9b-456c-bcaf-856abdeb1afe")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b89e1a6d-973a-45c1-a8f9-9f518479e6a1")
-		(property "Reference" "R2"
-			(at 161.29 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220R"
-			(at 161.29 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.972 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "726cb337-585a-4b8a-b470-6e62eef92c0a")
-		)
-		(pin "2"
-			(uuid "18ea6036-957e-4ffd-b9e6-91d86cf6b151")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebadaffa-ad3c-49f7-90a1-209f26956e30")
-		(property "Reference" "R1"
-			(at 139.7 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at 139.7 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.382 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06a4c6af-b365-4fc8-bb83-30fff196815a")
-		)
-		(pin "2"
-			(uuid "e489f4b2-cb1b-4f52-bc18-1dfdd85ed633")
-		)
-		(instances
-			(project "WeevilEyeMod"
-				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4f9671a-9eab-4afd-be54-2cb89ff541e8")
+		(uuid "52bd3a33-4135-424b-bd1c-de30157f559b")
 		(property "Reference" "D2"
-			(at 181.61 76.5174 90)
+			(at 92.71 51.1174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2281,7 +1407,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 181.61 79.0574 90)
+			(at 92.71 53.6574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2291,8 +1417,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 76.2 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +1429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 76.2 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +1440,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 177.8 76.2 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,7 +1451,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 76.2 0)
+			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,11 +1461,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "37f16125-eb70-4139-8762-7ac34e6e5b31")
-		)
 		(pin "1"
-			(uuid "6b86d046-129a-4db2-9bb7-86d886f5d08d")
+			(uuid "f02658dc-0ccc-4c92-9718-0c97c4cd489c")
+		)
+		(pin "2"
+			(uuid "7b7c4e93-4c2f-4137-83e2-731b500f4dd1")
 		)
 		(instances
 			(project "WeevilEyeMod"
@@ -2352,7 +1478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 111.76 0)
+		(at 53.34 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2361,9 +1487,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5a8f9df-0bca-4585-b1c6-d53458f58ef7")
+		(uuid "59027205-3de7-429f-9e12-0f708f2b42aa")
 		(property "Reference" "#PWR02"
-			(at 158.75 118.11 0)
+			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2374,7 +1500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 116.84 0)
+			(at 53.34 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2384,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 111.76 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,7 +1521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 111.76 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +1532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 111.76 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,12 +1543,677 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ded6f47-05b8-4b2d-9de2-15d9f8129e33")
+			(uuid "b595f83b-54f5-4f17-9fc6-b7a55004f742")
 		)
 		(instances
 			(project "WeevilEyeMod"
 				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd4c3ca-c210-406e-bada-04364dbb80b8")
+		(property "Reference" "R4"
+			(at 91.44 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 91.44 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 87.122 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7533546-7e57-4240-b4e8-ef40a4b9df21")
+		)
+		(pin "1"
+			(uuid "7557e8d4-e3f6-42b8-b1e4-63a586b6d187")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 68.58 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4ae20b-eaba-41e0-a9bf-94346a74da94")
+		(property "Reference" "Q1"
+			(at 73.66 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 73.66 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 73.66 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 68.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 68.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7a482d7e-563f-4be2-997d-e439c0ff6bc5")
+		)
+		(pin "1"
+			(uuid "4d3f0352-b78a-4153-bc21-255231a7e948")
+		)
+		(pin "2"
+			(uuid "42024057-0675-4ace-bd4f-1938e22c817e")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 71.12 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9cef30-c68c-4f2a-aea4-2970b6f1c9ea")
+		(property "Reference" "D1"
+			(at 74.93 51.1174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 74.93 53.6574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b805d6e-aac4-47d4-bd71-425b76dc105f")
+		)
+		(pin "2"
+			(uuid "4c58c571-415c-4339-8fe4-b017aafd76f6")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04fb014-f810-47eb-b365-50bec72d83a1")
+		(property "Reference" "#PWR01"
+			(at 71.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d35516e-4f5d-47f2-b717-ba75abff7ba8")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfac4bb4-58a9-4edb-9843-e1c493f7417d")
+		(property "Reference" "R2"
+			(at 73.66 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220R"
+			(at 73.66 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 69.342 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "68f548fd-d1ca-4a56-8eec-c07dec173ee1")
+		)
+		(pin "1"
+			(uuid "340423ba-6150-40a4-8a58-2b5efd42cdfb")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94276db-61cd-4824-91bf-3c61376c3c8a")
+		(property "Reference" "R1"
+			(at 55.88 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47K"
+			(at 55.88 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 51.562 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae4152c8-e567-40a4-a95d-bcf980495774")
+		)
+		(pin "1"
+			(uuid "31001ecd-c64a-4f2b-b87a-3db6f68262cf")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d9f2d9-1146-447d-8b56-5c500a76b33b")
+		(property "Reference" "#PWR03"
+			(at 33.02 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c9d570c-3baa-4a59-8a00-e267c1584981")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 33.02 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1e0adc-38c1-4466-869b-35571601aeca")
+		(property "Reference" "BT1"
+			(at 36.83 66.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 36.83 69.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450"
+			(at 33.02 68.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 68.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c18728b0-4d0f-4e31-a6a6-b9df772843a0")
+		)
+		(pin "1"
+			(uuid "0987f8e6-31cb-4419-adab-8c11af199acc")
+		)
+		(instances
+			(project "WeevilEyeMod"
+				(path "/eda64356-4112-4764-b7a6-299e92b3174f"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
