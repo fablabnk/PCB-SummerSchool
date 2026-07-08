@@ -21,7 +21,7 @@
 
 - Pick a graphic element you like from the elements provided.
 - Export it from Inkscape as a separate .svg file
-- For this example I will use an [aeroplane .svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/BoardOutlinePlane.svg)
+- For this example I will use an [aeroplane.svg](https://staging.svgrepo.com/svg/47678/aeroplane) file imported as a board outline. My edited version is in our repo [here](https://github.com/fablabnk/PCB-SummerSchool/tree/main/GraphicElements/BoardOutlinePlane.svg)
 - Import it into PCB Editor using: "File -> Import -> Graphics"
 - Choose which board layer you would like to import it to (in our case "Edge Cuts" for board outline)
 - To size it, you may have to keep reimporting and adjusting "import scale" parameter (no draggable resizing possible, unbelievably!)

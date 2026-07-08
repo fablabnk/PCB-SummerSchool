@@ -2,17 +2,27 @@
 
 ## Topics for Today
 
-- _Project Show and Tell_
-- Creating Your Own Symbols
-- Creating Your Own Footprints
-- The JLCPCB Ordering Process
-- PCBA: Fully assembled PCBs (optional)
-- Wrap Up and Thanks for Joining!
+- Karl presents: PotLED MIDI controller
 
-### Project Show and Tell
+- Would you prefer to?
+1. Understand better the JLCPCB ordering process - also for fully assembled PCBs?
+2. Explore two ways of importing design graphics into KiCad
+3. Learn how to make your own schematic symbols and footprints
+4. Just continue working on your board
 
-- Quick demos of progress
+- Individual support to finalise your first boards for submission
 
+- Wrap up and thanks for joining!
+
+## Reality Check-In
+
+- Jule and I had some concerns about the scope of the projects
+	- For most chance of success - keep it simple, follow the workflow and really get the basics down
+
+- How many of you think you will have something to submit by the end of today's session?
+	- If > 3, let's order tonight
+	- If <= 3, let's set a new deadline of 29th July at 18:30 submit your zip files to me and meet in the FabLab to check them and order
+	
 ### Creating Your Own Symbols
 
 _This part is optional - if you prefer to keep working on your designs please do so!_
@@ -21,7 +31,7 @@ _This part is optional - if you prefer to keep working on your designs please do
 - They can be placed in a project specific library or added to the global library
 - I prefer the former, as if someone clones your project they have everything they need
 
-- Let's make a symbol for a fake 6-pin integrated-circuit (IC) called RandomChip!
+- Let's make a symbol for the [555 Timer chip](https://www.circuits-diy.com/wp-content/uploads/2023/09/555-Timer-IC-Pinout.png) we we're using a few weeks ago 
 
 #### Step-By-Step
 
@@ -44,11 +54,13 @@ Create a new symbol
 _This part is optional - if you prefer to keep working on your designs please do so!_
 
 - Jule kindly brought in some [C2032 coin battery clips](https://de.aliexpress.com/item/32739802992.html) for us all! \o/
+- Here's a better idea of [how they mount on a PCB](https://www.amazon.de/Lilypad-Knopfzellen-Batteriehalter-Montagemodul-Pad-Batteriegeh%C3%A4use-Elektrizit%C3%A4t-Schiebeschalterplatine-Knopfzellen-Batteriehalter/dp/B0CSSZTRD2/ref=asc_df_B0CSSZTRD2)
 - But we don't have a footprint for them - so let's make one!
 - There are three options when this happens to you (from least to most effort):
-	- 1. Find and import an existing external library e.g. [Digikey library](https://github.com/Digi-Key/digikey-kicad-library)
-	- 2. Get the measurements from [the datasheet](https://ae01.alicdn.com/kf/HTB1pw2IXlfxLuJjy0Fnq6AZbXXaA.jpg?size=64584&height=520&width=923&hash=5e6cf8149ff9b1e77a5ec2acea47be58)
-	- 3. Measure it yourself. Most, but the vital thing is the 21mm between the two hole that the pins will go into.
+	- 1. Find and import an existing external library e.g. [Digikey library](https://github.com/Digi-Key/digikey-kicad-library) - but not always trustworthy!
+	- 2. Take the measurements from [the datasheet](https://ae01.alicdn.com/kf/HTB1pw2IXlfxLuJjy0Fnq6AZbXXaA.jpg?size=64584&height=520&width=923&hash=5e6cf8149ff9b1e77a5ec2acea47be58)
+	- 3. Measure it yourself. More chances of error.
+- Whichever way, the key thing is to focus on the 21mm needed between the two hole that the pins will go into.
 
 #### Step-By-Step
 
@@ -64,13 +76,6 @@ _This part is optional - if you prefer to keep working on your designs please do
 - Save and use it in your design like any other footprint
 
 ### The JLCPCB Ordering Process
-
-#### When to Order
-
-It's good to have a deadline! So let's meet again on either
-- Friday 17th 6-7pm
-- Monday 20th 6-7pm
-Order so that your board arrives before this date (take 10-14 days)
 
 #### Things to Pay Attention To in JLCPCB Ordering Inferface 
 
@@ -138,4 +143,4 @@ Let's run through the PCBA process using an equaliser we made for SynthLab (the 
 
 #### Wrap Up and Thanks for Joining
 
-I hope you enjoyed the summerschool and it gave you the confidence to get making your own boards. Let's meet in a couple of weeks to see the results :)
+I hope you enjoyed the summerschool and it gave you the confidence to get making your own boards. Let's meet again once we've ordered to see the results :)
