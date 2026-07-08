@@ -2,7 +2,7 @@
 
 ## Topics for Today
 
-- Karl presents: PotLED MIDI controller
+- Karl presents: PicoPot and PotLED MIDI controller
 
 - Would you prefer to?
 1. Understand better the JLCPCB ordering process - also for fully assembled PCBs?
